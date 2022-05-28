@@ -1,0 +1,25 @@
+header i{
+   cursor: pointer;
+}
+.left{
+    display: flex;
+    width: 100px;
+    flex: 1;
+}
+.center{
+    display:flex;
+    flex:2;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.center.submit i{
+    height:5px;
+}
+.right{
+    display: flex;
+}
+.left .logo i{
+    color: red;
+}
